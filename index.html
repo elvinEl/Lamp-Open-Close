@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamp open / close </title>
+</head>
+
+<body>
+    <div class="flex justify-center items-center m-auto flex-col w-[50%]">
+        <div class="m-[2rem]">
+            <a class="bg-green-400 px-4 py-2 text-white hover:bg-green-500 hover:duration-700"
+                onclick="document.getElementById('lampa').src='img/lampa_ac.jpg'" href="#">Open</a>
+            <a class="bg-green-400 px-4 py-2 text-white  hover:bg-green-500 hover:duration-700"
+                onclick="document.getElementById('lampa').src='img/lampa_bagli.jpg'" href="#">Close</a>
+        </div>
+        <img id="lampa" src="img/Lampa_bagli.jpg" alt="">
+    </div>
+</body>
+
+</html>
